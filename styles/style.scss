@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url(../fonts/LexendDeca-Regular.ttf);
+}
+@font-face {
+    font-family: 'Big Shoulders Display';
+    src: url(../fonts/BigShouldersDisplay-Bold.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+    display: grid;
+    place-items: center;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.container{
+    $color: hsl(0, 0%, 95%);
+    border-radius: 8px;
+    width: 20em;
+    margin: 2rem 0;
+    overflow: hidden;
+
+    .sedans{
+        $bgc: hsl(31, 77%, 52%);
+        background-color: $bgc;
+        
+        .card__link{
+            color: $bgc;
+            background-color: $color;
+
+            &:hover{
+                background-color: $bgc;
+                color: $color;
+            }
+        }
+    }
+    .suvs{
+        $bgc: hsl(184, 100%, 22%);
+        background-color: $bgc;
+
+        .card__link{
+            color: $bgc;
+            background-color: $color;
+
+            &:hover{
+                background-color: $bgc;
+                color: $color;
+            }
+        }
+    }
+    .luxury{
+        $bgc: hsl(179, 100%, 13%);
+        background-color: $bgc;
+
+        .card__link{
+            color: $bgc;
+            background-color: $color;
+
+            &:hover{
+                background-color: $bgc;
+                color: $color;
+            }
+        }
+    }
+
+
+    .container__card{
+        padding: 3em;
+        color: $color;
+
+        .card__image{
+            margin-bottom: 2rem;
+        }
+        .card__heading{
+            text-transform: uppercase;
+            margin-bottom: 2rem;
+            font-family: 'Big Shoulders Display', cursive;
+        }
+        .card__paragraph{
+            margin-bottom: 3rem;
+            line-height: 1.8;
+        }
+        .card__link{
+            padding: 8px 16px;
+            border: 2px solid $color;
+            border-radius: 3em;
+            display: inline-block;
+            text-decoration: none;
+        }
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .container{
+        display: flex;
+        width: 60em;
+
+        .container__card{
+
+        .card__paragraph{
+            margin-bottom: 4rem;
+        }
+        }
+    }
+}

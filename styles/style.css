@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'Lexend Deca';
+  src: url(../fonts/LexendDeca-Regular.ttf); }
+@font-face {
+  font-family: 'Big Shoulders Display';
+  src: url(../fonts/BigShouldersDisplay-Bold.ttf); }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: #f2f2f2;
+  display: grid;
+  place-items: center;
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif; }
+
+.container {
+  border-radius: 8px;
+  width: 20em;
+  margin: 2rem 0;
+  overflow: hidden; }
+  .container .sedans {
+    background-color: #e38826; }
+    .container .sedans .card__link {
+      color: #e38826;
+      background-color: #f2f2f2; }
+      .container .sedans .card__link:hover {
+        background-color: #e38826;
+        color: #f2f2f2; }
+  .container .suvs {
+    background-color: #006970; }
+    .container .suvs .card__link {
+      color: #006970;
+      background-color: #f2f2f2; }
+      .container .suvs .card__link:hover {
+        background-color: #006970;
+        color: #f2f2f2; }
+  .container .luxury {
+    background-color: #004241; }
+    .container .luxury .card__link {
+      color: #004241;
+      background-color: #f2f2f2; }
+      .container .luxury .card__link:hover {
+        background-color: #004241;
+        color: #f2f2f2; }
+  .container .container__card {
+    padding: 3em;
+    color: #f2f2f2; }
+    .container .container__card .card__image {
+      margin-bottom: 2rem; }
+    .container .container__card .card__heading {
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+      font-family: 'Big Shoulders Display', cursive; }
+    .container .container__card .card__paragraph {
+      margin-bottom: 3rem;
+      line-height: 1.8; }
+    .container .container__card .card__link {
+      padding: 8px 16px;
+      border: 2px solid #f2f2f2;
+      border-radius: 3em;
+      display: inline-block;
+      text-decoration: none; }
+
+@media screen and (min-width: 800px) {
+  .container {
+    display: flex;
+    width: 60em; }
+    .container .container__card .card__paragraph {
+      margin-bottom: 4rem; } }
+
+/*# sourceMappingURL=style.css.map */
