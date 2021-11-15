@@ -72,5 +72,5 @@ I started by coding the mobile version first and then added a few lines of media
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/ibraimisa)
-- Twitter - [@yourusername](https://www.twitter.com/Ibrahim_Isa274)
+- Frontend Mentor - [@ibrahimisa](https://www.frontendmentor.io/profile/ibraimisa)
+- Twitter - [@Ibrahim_Isa274](https://www.twitter.com/Ibrahim_Isa274)
