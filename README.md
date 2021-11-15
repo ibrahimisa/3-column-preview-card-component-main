@@ -34,8 +34,8 @@ _**Mobile preview**_
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-/hub/responsive-3column-preview-card-component-using-flex-and-grid-gAv92HwIg)
+- Live Site URL: [Add live site URL here](https://vibrant-shockley-38e111.netlify.app)
 
 ## My process
 
